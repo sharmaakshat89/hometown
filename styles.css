@@ -1,0 +1,90 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    background: linear-gradient(#43789d , #edafb8);
+    font-family:"Julius Sans One", sans-serif;
+    font-size: smaller;
+    font-weight: 700;
+}
+.hero {
+    text-align: center;
+    width:725px;
+    height:350px;
+    background-image: url("images/pathankot-cover.jpg");
+    background-size:cover;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:34px;
+    padding-top:1px;
+    
+}
+
+.bann1{
+    width:180px;
+    margin:80px auto 75px auto;
+    padding:15px 8px 15px 8px;
+    border: 1px solid;
+    border-radius:12px;
+    background-color: #caf0f8;
+    color:#13315c;
+    }
+
+.bann2 {
+    width:520px;
+    margin:100px auto 75px auto;
+    padding:7px 8px 7px 8px;
+    border: 1px solid;
+    border-radius:12px;
+    background-color: #caf0f8;
+    color:#13315c;
+}
+#act-hdr{
+    text-align: center;
+}
+.activities {   
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gc , .mg , .mktw {
+    margin: 20px 20px;
+    padding:20px 20px;
+}
+
+#gcpic , #mgpic , #mktwpic {
+    width:150px;
+    height:150px;
+    border: 2px none;
+    border-radius: 50%;
+   }
+   
+   .guide{
+    margin: 50px 150px 50px 150px; 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    border:3px none;
+    background-color:#ddb892;
+    border-radius:16px;
+    padding: 15px 25px;
+    font-size: 47%;
+   }
+   
+   #gdpic {
+    width:150px;
+    height:150px;
+    border-radius:120px;
+    display:flex;
+    margin-right:8px;
+   }
+ .guide:hover {
+    background-image: url("images/nick-miller2.gif");
+ }  
